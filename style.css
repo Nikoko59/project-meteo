@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#meteofday {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-evenly;
+
+   
+}
+
+#Lundi , #Mardi,   #Mercredi,  #Jeudi , #Vendredi,  #Samedi , #Dimanche {
+    width: 18%;
+    border : 1px solid #070142 ; 
+   padding: 10px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+
+}
+
+
+h1 {
+    font-size : 1.7rem ; 
+    font-weight : 600  ; 
+    padding: 15px;
+    margin : 0 25px ; 
+    width: 100%;
+    text-align: center;
+    
+}
+b{
+    font-size : 1rem ; 
+    letter-spacing: 0.6px;
+    line-height: 1.5em;
+    color : #070142; 
+
+
+}
+
+/*  class type de temps   */
+.Soleil {
+    background: red;
+ 
+
+}
+
+.Soleil:hover {
+  opacity : 0.6; 
+}
+
+.Orage { 
+ background: violet ;
+}
+
+
+.Orage:hover {
+    opacity : 0.6; 
+  }
+  
+
+.Pluvieux {
+background: orange;
+}
+
+.Pluvieux:hover { 
+
+        opacity : 0.6; 
+
+      
+}; 
+
+
+  
+.Couvert {
+background: goldenrod; 
+}
+
+.Couvert:hover {
+    opacity : 0.6; 
+  }
+
+.Neige { 
+background: green;
+}
+
+.Neige:hover {
+    opacity: 0.6
+}
+
+.Brumeux {
+background: maroon;
+}
+
+.Brumeux:hover{
+    opacity: 0.6; 
+}
+
+.Venteux { 
+    background: magenta;
+}
+
+.Venteux:hover { 
+  opacity : 0.6; 
+}
+/*  Fin du type de temps */
+
+@media screen and (max-width : 600px) {
+    h1{ 
+        font-size : 1.5rem;
+        width: 100%;
+        background : #070142; 
+        color : #ffbc34; 
+
+    }
+    #meteofday{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction : column ; 
+    } #Lundi , #Mardi,   #Mercredi,  #Jeudi , #Vendredi,  #Samedi , #Dimanche {
+        width: 70%;
+        border : 1px solid #070142 ; 
+        border-radius : 50px ; 
+      padding: 10px;
+       display: flex;
+       flex-direction: column ; 
+       margin: 10px;
+     
+      
+    
+    
+    }
+    
+    
+    }
